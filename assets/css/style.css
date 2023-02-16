@@ -1,0 +1,40 @@
+#sidebar {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+    padding-top: 30px;
+    position: relative;
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.hide-sidebar{
+    transform: translateY(-100px);
+}
+.menu {
+    width: 100%;
+}
+
+.menu .icons {
+    width: 82%;
+    position: absolute;
+    bottom: 0;
+}
+
+.icons a {
+    font-size: 25px;
+    color: black;
+}
+.icons .open-close-icons {
+    position: relative;
+    height: 50px;
+}
+.icons .open-close-icons i {
+    font-size: 27px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    transition: all .3s;
+}
+
