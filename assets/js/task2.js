@@ -15,4 +15,11 @@ closeIcon.addEventListener("click",function(){
     openIcon.classList.remove("d-none")
 })
 
+let space = sidebar.nextElementSibling
+space.addEventListener("click",function(){
+    sidebar.classList.add("hide-sidebar");
+    closeIcon.classList.add("d-none");
+    openIcon.classList.remove("d-none")
+})
+
 
