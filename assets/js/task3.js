@@ -3,6 +3,7 @@ let calc = document.querySelector("#calculator");
 let firstInp = calc.children[0].firstElementChild.children[0]
 let secondInp = calc.children[0].firstElementChild.children[1]
 
+
 let sum = calc.children[0].children[1].firstElementChild;
 let minus = calc.children[0].children[1].children[1];
 let multiple = calc.children[0].children[1].children[2];
@@ -20,6 +21,8 @@ function showResult(res) {
 let res = "";
 
 sum.addEventListener("click", function () {
+    
+
     res = ~~firstInp.value + ~~secondInp.value;
     showResult(res);
     clear();
@@ -44,3 +47,4 @@ divide.addEventListener("click", function () {
     showResult(res);
     clear();
 })
+
